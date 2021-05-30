@@ -1,8 +1,9 @@
-echo "Enter the user name: "  
-read first_name  
-echo "The Current User Name is $first_name" 
+Num1=$1
+num2=$2
 
-NAME=$1
-LASTNAME=$2
+echo "The number 1 and 2 are, $Num1 $Num2"
 
-echo "Hello, $NAME $LASTNAME"
+Num3=Num1+Num2
+
+echo "The sum is, $NUM3"
+
